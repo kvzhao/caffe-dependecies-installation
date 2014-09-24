@@ -12,7 +12,7 @@ mkdir ~/pkg/cuda_install
 mv cuda_5.5.22_linux_64.run ~/pkg
 cd ~/pkg
 chmod +x cuda_5.5.22_linux_64.run
-./chmod +x cuda_5.5.22_linux_64.run -extract=~/pkg/cuda_install
+sudo ./cuda_5.5.22_linux_64.run -extract=~/pkg/cuda_install
 sudo ./cuda_install/cuda-linux64-rel-5.5.22-16488124.run
 sudo ./cuda_install/cuda-samples-linux-5.5.22-16488124.run
 cd ~/

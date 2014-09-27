@@ -33,7 +33,7 @@ cd ~/Downloads/
 wget http://developer.download.nvidia.com/compute/cuda/5_5/rel/installers/cuda_5.5.22_linux_64.run
 mkdir ~/Downloads/pkg
 mkdir ~/Downloads/pkg/cuda_install
-mv cuda_5.5.22_linux_64.run ~/pkg
+mv cuda_5.5.22_linux_64.run ~/Downloads/pkg
 cd ~/Downloads/pkg
 chmod +x cuda_5.5.22_linux_64.run
 sudo ./cuda_5.5.22_linux_64.run -extract=~/Downloads/pkg/cuda_install

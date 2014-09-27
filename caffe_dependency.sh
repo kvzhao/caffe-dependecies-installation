@@ -29,7 +29,6 @@ sudo apt-get install libhdf5-dev libleveldb-dev liblmdb-dev -y
 sudo apt-get install python-protobuf python-numpy python-skimage python-pydot python-pandas -y
 
 # CUDA 5.5
-cd ~/Downloads/
 wget http://developer.download.nvidia.com/compute/cuda/5_5/rel/installers/cuda_5.5.22_linux_64.run
 mkdir ~/Downloads/pkg
 mkdir ~/Downloads/pkg/cuda_install

@@ -28,6 +28,12 @@ sudo apt-get install libopencv-* -y
 sudo apt-get install libhdf5-dev libleveldb-dev liblmdb-dev -y
 sudo apt-get install python-protobuf python-numpy python-skimage python-pydot python-pandas -y
 
+# Nvidia Driver
+sudo add-apt-repository ppa:xorg-edgers/ppa -udo add-apt-repository ppa:xorg-edgers/ppa -y
+sudo apt-get update
+## Here i install cuda driver 340
+sudo apt-get install nvidia-340-dev nvidia-340-uvm -y
+
 # CUDA 5.5
 wget http://developer.download.nvidia.com/compute/cuda/5_5/rel/installers/cuda_5.5.22_linux_64.run
 mkdir ~/Downloads/pkg
